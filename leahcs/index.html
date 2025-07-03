@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>LeahStudio</title>
+  <style>
+    body { margin: 0; display: flex; height: 100vh; overflow: hidden; font-family: monospace; background: #121212; color: #fff; }
+    #sidebar { width: 250px; background: #1f1f1f; padding: 10px; overflow-y: auto; }
+    #editor-container { flex: 1; display: flex; flex-direction: column; }
+    #editor { flex: 1; }
+    #console { height: 150px; background: #000; overflow-y: auto; font-size: 12px; padding: 5px; border-top: 1px solid #444; }
+    button { margin: 5px; padding: 5px 10px; background: #333; border: none; color: #fff; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <div id="sidebar">
+    <h3>Project Files</h3>
+    <ul id="file-list"></ul>
+  </div>
+  <div id="editor-container">
+    <div id="editor"></div>
+    <div id="console">Console Ready...</div>
+  </div>
+  <script src="./editor.js"></script>
+</body>
+</html>

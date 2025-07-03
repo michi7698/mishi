@@ -1,0 +1,13 @@
+{
+  "name": "leahstudio",
+  "version": "1.0.0",
+  "description": "Editor oficial para Leah Engine",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "electron": "^27.1.1",
+    "monaco-editor": "^0.45.0"
+  }
+}
